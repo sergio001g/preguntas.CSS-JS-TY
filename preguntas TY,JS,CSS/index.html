@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Cultura General</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz de Cultura General</h1>
+        <div id="start-screen">
+            <input type="text" id="player-name" placeholder="Ingresa tu nombre">
+            <button id="start-btn">Empezar</button>
+        </div>
+        <div id="quiz-screen" class="hidden">
+            <div id="question-container"></div>
+            <div id="answer-buttons"></div>
+            <button id="next-btn" class="hidden">Siguiente</button>
+        </div>
+        <div id="end-screen" class="hidden">
+            <h2>¡Juego terminado!</h2>
+            <p>Tu puntuación: <span id="score"></span></p>
+            <button id="restart-btn">Jugar de nuevo</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
